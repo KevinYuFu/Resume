@@ -1,5 +1,4 @@
 import '../css/right-body.css';
-import '../css/split.css';
 
 function RightBody() {
 

@@ -1,5 +1,4 @@
 import '../css/left-body.css';
-import '../css/split.css';
 
 function LeftBody() {
   const exp = [
