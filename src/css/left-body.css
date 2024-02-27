@@ -1,0 +1,43 @@
+.left-container h1 {
+  font-size: 30px;
+}
+
+.left-container h2 {
+  font-size: 23px;
+  margin-top: 15px;
+  margin-bottom: 3px;
+
+}
+
+.left-container h4 {
+  font-size: 16px;
+}
+
+.left-container ul {
+  margin-left: 30px;
+}
+
+.left-container li {
+  font-size: 15px;
+  margin-top: 1px;
+}
+
+.personal-projects {
+  margin-top: 20px;
+}
+
+.job-description {
+  font-size: 19px;
+  color: #505050;
+}
+
+.time-span {
+  font-size: 15px;
+}
+
+/*
+.time-span {
+  float: right;
+  font-size: 15px;
+}
+*/

@@ -1,0 +1,32 @@
+/* Main */
+.title-container {
+  width: 100%;
+  height: 80px;
+  padding-top: 10px;
+}
+
+/* title */
+.title h1 {
+  font-size: 45px;
+  color: #505050;
+}
+
+/* Contact */
+.contact-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 25px;
+}
+
+.contact-item {
+  font-size: 14px;
+  text-align: left;
+  align-items: center;
+}
+
+.contact-item img {
+  padding-top: 2px;
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+}
