@@ -10,9 +10,9 @@ function RightBody() {
     <div>
       <h3>Education</h3>
       <h4>Univerity of Waterloo</h4>
-      <p>Bachelor of Computer Science</p>
-      <p>Music Minor</p>
-      <p>Graduated April 2019</p>
+        <p>Bachelor of Computer Science</p>
+        <p>Music Minor</p>
+        <p>Graduated April 2019</p>
     </div>
   )
 
@@ -20,9 +20,11 @@ function RightBody() {
     <div>
       <h3>Extra Curriculars</h3>
       <h4>Musical Director</h4>
-      <p>Led weekly rehearsals and workshops</p>
-      <p>Manage audio equipment and sound engineered concernts with over 700 patrons</p>
-      <p>Planned and Executed executive meetings and club events</p>
+      <ul>
+        <li>Led weekly rehearsals and workshops</li>
+        <li>Manage audio equipment and sound engineered concernts with over 700 patrons</li>
+        <li>Planned and Executed executive meetings and club events</li>
+      </ul>
     </div>
   )
 
@@ -30,7 +32,7 @@ function RightBody() {
     <div class="right-container">
 
       <h2>Skills:</h2>
-      <div>
+      <div class="minor-top-padding">
         <h4>Languages:</h4>
         {languages.map( x => (
           <p>{x}</p>

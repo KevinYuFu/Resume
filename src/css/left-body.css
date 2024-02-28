@@ -1,20 +1,11 @@
+/* Left Container */
+
 .left-container h1 {
   font-size: 30px;
 }
 
-.left-container h2 {
-  font-size: 23px;
-  margin-top: 15px;
-  margin-bottom: 3px;
-
-}
-
-.left-container h4 {
-  font-size: 16px;
-}
-
 .left-container ul {
-  margin-left: 30px;
+  margin-left: 22px;
 }
 
 .left-container li {
@@ -27,17 +18,10 @@
 }
 
 .job-description {
-  font-size: 19px;
+  font-size: 15px;
   color: #505050;
 }
 
 .time-span {
-  font-size: 15px;
+  font-size: 13px;
 }
-
-/*
-.time-span {
-  float: right;
-  font-size: 15px;
-}
-*/

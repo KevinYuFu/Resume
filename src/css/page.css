@@ -1,3 +1,4 @@
+/* Page */
 
 *{
   margin: 0;
@@ -12,19 +13,6 @@
   overflow: hidden;
   background: #d0d0d0;
 }
-
-/*
-.page {
-  margin: auto;
-  margin-top: 2cm;
-  margin-bottom: 2cm;
-  width: 21cm;
-  height: 29.7cm;
-  padding: 30px;
-  background: #aaaaaa;
-  border: 3px solid white;
-}
-*/
 
 .page {
   margin: auto;
@@ -55,9 +43,6 @@
 
 .page-padding {
   margin: 1.5cm
-}
-
-@page {
 }
 
 /* for debugging */

@@ -1,4 +1,3 @@
-import '../css/body.css';
 import '../css/page.css';
 import '../css/style.css';
 import '../css/split.css';

@@ -16,7 +16,7 @@ function LeftBody() {
         'Developed interface features and fixed bugs for an interactive novel game. (Unity, C\#)'
       ] 
     },
-    { company: 'Oracle Eloqua', position: 'Backend Engineer', time: 'Jul 2019 – Jan 2020', points: 
+    { company: 'Oracle', position: 'Backend Engineer', time: 'Jul 2019 – Jan 2020', points: 
       [
         'Investigated and resolved client escalations. (C\#, SQL)',
         'Completed massive automation catch up across 4 teams. (C\#, NUnit)',
@@ -30,13 +30,25 @@ function LeftBody() {
         'Reduced execution time of an offline graph processing pipeline by 3 hours through implementation of parallelism and concurrently optimized designs.'
       ] 
     },
+    { company: 'eSolutions Group', position: 'Frontend & DevOps Engineer', time: 'Sep 2016 – Dec 2016', points: 
+      [
+        'Reduced website setup time from a day to under 10 minutes by automating database operations. (PowerShell, SQL)',
+        'Developed and deployed 8 websites for large cities and corporations. (.Net, SQL)'
+      ] 
+    },
+    { company: 'KPMG', position: 'Sr. Software Developer', time: 'Jan 2016 – Apr 2016', points: 
+      [
+        'Designed a tax return data processing application, saving 3 to 5 days of manual effort for each of thousands of clients. (VBA)',
+        'Rebuilt platform to host complex dynamic questionnaire websites which filed tax returns for over 5,000 individuals. (C\#, .Net)'
+      ] 
+    },
   ]
 
   const expElement = exp.map(x =>
     <div>
       <h2>
         <span>{x.company}</span>
-        <span> |</span>
+        <span> | </span>
         <span class="job-description">{x.position}</span>
         <p class="time-span">{x.time}</p>
       </h2>
