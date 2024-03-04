@@ -19,6 +19,7 @@
   margin-top: 2cm;
   margin-bottom: 2cm;
   width: 21cm;
+  border: 1px solid #000;
 }
 
 .page-width-controller {
@@ -38,7 +39,6 @@
     left: 0;
     right: 0;
     background-color: white;
-    border: 1px solid #000;
 }
 
 .page-padding {

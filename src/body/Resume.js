@@ -11,8 +11,8 @@ function Resume() {
       <div class="page">
         <div class="page-width-controller">
           <div class="page-ratio"></div>
-          <div class="page-content-container">
-            <div id="pdfSource" class="page-padding">
+          <div id="pdfSource" class="page-content-container">
+            <div class="page-padding">
               <div>
                 <Header />
                 <LeftBody />

@@ -19,6 +19,10 @@
   margin-top: 1px;
 }
 
-.minor-top-padding {
+.section-top-padding {
   margin-top: 15px;
+}
+
+.minor-top-padding {
+  margin-top: 3px;
 }

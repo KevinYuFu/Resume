@@ -4,9 +4,9 @@ function LeftBody() {
   const exp = [
     { company: 'Amazon', position: 'Backend Engineer', time: 'Sept 2022 – Present', points: 
       [
-        'Migrated advertising webpage architecture to AWS',
-        'Managed weekly deployments',
-        'Handled oncall tickets'
+        'Migrated advertising webpage architecture to AWS.',
+        'Managed weekly deployments and updated guideline documentation.',
+        'Handled oncall tickets as part of weekly oncall rotation.'
       ] 
     },
     { company: 'Electronic Arts', position: 'Full Stack Engineer', time: 'Feb 2020 – Aug 2022', points: 

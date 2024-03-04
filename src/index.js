@@ -19,7 +19,7 @@ root.render(
 const delay = ms => new Promise(res => setTimeout(res, ms));
 await delay(1);
 
-const doc = new jsPDF("p", "mm", "a4");
+const doc = new jsPDF("p", "pt", "a4");
 var pdfSource = window.document.getElementById("pdfSource");
 
 
@@ -32,5 +32,5 @@ doc.html(
       document.body.appendChild(iframe);
       iframe.src = pdf.output('datauristring');
     },
-    width: 11250
+    html2canvas:{scale:0.77}
   });
