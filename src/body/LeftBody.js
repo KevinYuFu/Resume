@@ -4,23 +4,23 @@ function LeftBody() {
   const exp = [
     { company: 'Amazon', position: 'Backend Engineer', time: 'Sept 2022 – Present', points: 
       [
-        'Migrated advertising webpage architecture to AWS.',
-        'Managed weekly deployments and updated guideline documentation.',
-        'Handled oncall tickets as part of weekly oncall rotation.'
+        'Migrated entire web service architecture to AWS. (Java, AWS)',
+        'Managed weekly deployments and updated guideline documentation as the project slowly moved to ci/cd. (Java, AWS)',
+        'Maintained oncall ticket queue below threshold as part of weekly oncall rotation. (Java, AWS)'
       ] 
     },
     { company: 'Electronic Arts', position: 'Full Stack Engineer', time: 'Feb 2020 – Aug 2022', points: 
       [
-        'Prototyped 4 games in 4 weeks for concept testing. (Unity, C\#)',
-        'Built and maintained microservice architecture to support all prototype games. (PHP, Laravel, AWS: DynamoDB, ECS, Lambda)',
-        'Developed interface features and fixed bugs for an interactive novel game. (Unity, C\#)'
+        'Prototyped 4 games in 4 weeks, leading and planning a for team of artists and QA engineers. (Unity, C\#)',
+        'Designed a malleable progression system to use across a series of live and prototype games. (PHP, Laravel, AWS: DynamoDB, ECS, Lambda)',
+        'Rapidly familiarized with unity, developing interface features for interactive novel game. (Unity, C\#)'
       ] 
     },
     { company: 'Oracle', position: 'Backend Engineer', time: 'Jul 2019 – Jan 2020', points: 
       [
-        'Investigated and resolved client escalations. (C\#, SQL)',
-        'Completed massive automation catch up across 4 teams. (C\#, NUnit)',
-        'Developed 34 email templates to look consistent across 68 email clients. (HTML, CSS, Velocity)'
+        'Reduced 5 week sprint cycle to 4 across 4 teams by implementing over 120 missing tests. (C\#, NUnit)',
+        'Developed 34 email templates with uniform consistency across 68 email clients. (HTML, CSS, Velocity)',
+        'Investigated and fixed Database inconsistencies, resolving client escalations. (C\#, SQL)'
       ] 
     },
     { company: 'Uber Maps', position: 'Backend Engineer', time: 'Jan 2018 – April 2018', points: 
@@ -36,12 +36,14 @@ function LeftBody() {
         'Developed and deployed 8 websites for large cities and corporations. (.Net, SQL)'
       ] 
     },
+    /*
     { company: 'KPMG', position: 'Sr. Software Developer', time: 'Jan 2016 – Apr 2016', points: 
       [
         'Designed a tax return data processing application, saving 3 to 5 days of manual effort for each of thousands of clients. (VBA)',
         'Rebuilt platform to host complex dynamic questionnaire websites which filed tax returns for over 5,000 individuals. (C\#, .Net)'
       ] 
     },
+    */
   ]
 
   const expElement = exp.map(x =>

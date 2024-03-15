@@ -4,13 +4,13 @@ function RightBody() {
 
   const languages = [ 'Python', 'PHP', 'Java', 'c++', 'c#', 'JavaScript', 'SQL', 'Bash' ]
   const tools = [ 'Git', 'docker', 'AWS', 'Unity' ]
-  const hobbies = [ 'Badminton', 'Producing - DJ', 'Skateboard - Snowboard', 'Investing', 'drifting' ]
+  const hobbies = [ 'Badminton', 'Producing/DJ', 'Skateboard/Snowboard', 'Investing', 'drifting' ]
 
   const education = (
     <div>
       <h3>Education:</h3>
         <p>B.S. Computer Science</p>
-        <p>Univerity of Waterloo</p>
+        <p>University of Waterloo</p>
         <p>Graduated April 2019</p>
     </div>
   )
@@ -20,8 +20,8 @@ function RightBody() {
       <h3>Extra Curriculars</h3>
       <h4>Musical Director</h4>
         <p class="minor-top-padding">Led weekly rehearsals and workshops</p>
-        <p class="minor-top-padding">Manage audio equipment and sound engineered concernts with over 700 patrons</p>
-        <p class="minor-top-padding">Planned and Executed executive meetings and club events</p>
+        <p class="minor-top-padding">Manage audio equipment and sound engineered concerts with over 700 patrons</p>
+        <p class="minor-top-padding">Planned and executed executive meetings and club events</p>
     </div>
   )
 
