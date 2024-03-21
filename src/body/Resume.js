@@ -4,10 +4,12 @@ import '../css/split.css';
 import Header from './Header';
 import LeftBody from './LeftBody';
 import RightBody from './RightBody';
+import PDFButton from '../pdf/pdfButton';
 
 function Resume() {
   return (
     <div class="main">
+      <PDFButton/>
       <div class="page">
         <div class="page-width-controller">
           <div class="page-ratio"></div>

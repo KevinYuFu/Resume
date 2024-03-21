@@ -18,10 +18,11 @@
 }
 
 .job-description {
-  font-size: 15px;
-  color: #505050;
+  /*font-size: 15px;*/
+  color: #303030;
 }
 
 .time-span {
   font-size: 13px;
+  color: #505050;
 }

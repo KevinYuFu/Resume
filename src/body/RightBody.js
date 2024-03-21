@@ -4,7 +4,7 @@ function RightBody() {
 
   const languages = [ 'Python', 'PHP', 'Java', 'c++', 'c#', 'JavaScript', 'SQL', 'Bash' ]
   const tools = [ 'Git', 'docker', 'AWS', 'Unity' ]
-  const hobbies = [ 'Badminton', 'Producing/DJ', 'Skateboard/Snowboard', 'Investing', 'drifting' ]
+  const hobbies = [ 'Badminton', 'Producing/DJ', 'Skateboard/Snowboard', 'Investing', 'Drifting' ]
 
   const education = (
     <div>
@@ -28,16 +28,16 @@ function RightBody() {
   return (
     <div class="right-container">
 
-      <h2>Skills:</h2>
+      <h1>Skills:</h1>
       <div class="section-top-padding">
         <h4>Languages:</h4>
         {languages.map( x => (
-          <p>{x}</p>
+          <p><i>{x}</i></p>
         ))}
 
         <h3>Tools:</h3>
         {tools.map( x => (
-          <p>{x}</p>
+          <p><i>{x}</i></p>
         ))}
       </div>
 

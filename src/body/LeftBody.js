@@ -4,21 +4,21 @@ function LeftBody() {
   const exp = [
     { company: 'Amazon', position: 'Backend Engineer', time: 'Sept 2022 – Present', points: 
       [
-        'Migrated entire web service architecture to AWS. (Java, AWS)',
-        'Managed weekly deployments and updated guideline documentation as the project slowly moved to ci/cd. (Java, AWS)',
-        'Maintained oncall ticket queue below threshold as part of weekly oncall rotation. (Java, AWS)'
+        'Migrated web service architecture to company standard on AWS. (Java, AWS)',
+        'Managed weekly deployments across 6 teams and kept documentation updated as the project moved to ci/cd. (Java, AWS)',
+        'Investigated alerts and automated access management to maintain oncall ticket queue below threshold. (Java, Typescript, AWS)'
       ] 
     },
     { company: 'Electronic Arts', position: 'Full Stack Engineer', time: 'Feb 2020 – Aug 2022', points: 
       [
-        'Prototyped 4 games in 4 weeks, leading and planning a for team of artists and QA engineers. (Unity, C\#)',
-        'Designed a malleable progression system to use across a series of live and prototype games. (PHP, Laravel, AWS: DynamoDB, ECS, Lambda)',
-        'Rapidly familiarized with unity, developing interface features for interactive novel game. (Unity, C\#)'
+        'Prototyped 4 games in 4 weeks, leading and planning a team of artists and QA engineers. (Unity, C\#)',
+        'Designed a flexible progression system and built microservices to use across a series of live and prototype games. (PHP, Laravel, AWS: DynamoDB, ECS, Lambda)',
+        'Rapidly learned Unity with no prior game development experience, building interface features for an interactive novel game. (Unity, C\#)'
       ] 
     },
     { company: 'Oracle', position: 'Backend Engineer', time: 'Jul 2019 – Jan 2020', points: 
       [
-        'Reduced 5 week sprint cycle to 4 across 4 teams by implementing over 120 missing tests. (C\#, NUnit)',
+        'Reduced sprint cycle from 5 to 4 weeks across 4 separate teams by implementing over 120 missing tests. (C\#, NUnit)',
         'Developed 34 email templates with uniform consistency across 68 email clients. (HTML, CSS, Velocity)',
         'Investigated and fixed Database inconsistencies, resolving client escalations. (C\#, SQL)'
       ] 
