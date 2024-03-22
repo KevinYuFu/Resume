@@ -1,8 +1,8 @@
-import '../css/right-body.css';
+import '../css/skill-body.css';
 
 function RightBody() {
 
-  const languages = [ 'Python', 'PHP', 'Java', 'c++', 'c#', 'JavaScript', 'SQL', 'Bash' ]
+  const languages = [ 'Python', 'PHP', 'Java', 'c++', 'c#', 'JavaScript', 'react', 'SQL', 'Bash' ]
   const tools = [ 'Git', 'docker', 'AWS', 'Unity' ]
   const hobbies = [ 'Badminton', 'Producing/DJ', 'Skateboard/Snowboard', 'Investing', 'Drifting' ]
 
@@ -28,7 +28,7 @@ function RightBody() {
   return (
     <div class="right-container">
 
-      <h1>Skills:</h1>
+      <h1>Skills</h1>
       <div class="section-top-padding">
         <h4>Languages:</h4>
         {languages.map( x => (

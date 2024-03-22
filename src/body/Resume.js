@@ -2,8 +2,8 @@ import '../css/page.css';
 import '../css/style.css';
 import '../css/split.css';
 import Header from './Header';
-import LeftBody from './LeftBody';
-import RightBody from './RightBody';
+import ExperienceBody from './ExperienceBody';
+import SkillBody from './SkillBody';
 import PDFButton from '../pdf/pdfButton';
 
 function Resume() {
@@ -17,8 +17,8 @@ function Resume() {
             <div class="page-padding">
               <div>
                 <Header />
-                <LeftBody />
-                <RightBody />
+                <ExperienceBody />
+                <SkillBody />
               </div>
             </div>
           </div>

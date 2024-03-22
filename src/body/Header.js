@@ -25,7 +25,10 @@ function Header() {
   return (
     <div class="title-container">
       <div class="title">
-        <h1>Kevin Yu Fu</h1>
+        <h1>
+          <span class="accent">Yu </span>
+          Fu
+        </h1>
       </div>
       <div class="contact-container">
         {contactsElement}

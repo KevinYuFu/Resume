@@ -1,4 +1,4 @@
-import '../css/left-body.css';
+import '../css/experience-body.css';
 
 function LeftBody() {
   const exp = [

@@ -2,13 +2,18 @@
 .title-container {
   width: 100%;
   height: 80px;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 /* title */
 .title h1 {
   font-size: 45px;
   color: #505050;
+  vertical-align: bottom;
+}
+
+.accent {
+  color: #508080;
 }
 
 /* Contact */
@@ -28,7 +33,7 @@
   width: 14px;
   height: 14px;
   margin-right: 5px;
-  vertical-align: top;
+  vertical-align: text-bottom;
 }
 
 .contact-text {

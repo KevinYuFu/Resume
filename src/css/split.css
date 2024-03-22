@@ -1,25 +1,25 @@
 /* split */
 
 .title {
-  width: 40%;
+  width: 28%;
   height: 100%;
   float: left;
 }
 
 .contact-container {
-  width: 55%;
+  width: 68%;
   height: 100%;
   float: right;
 }
 
 /* Left Container */
 .left-container {
-  float: left;
+  float: right;
   width: 68%;
 }
 
 /* Right Container */
 .right-container {
   width: 28%;
-  float: right;
+  float: left;
 }
