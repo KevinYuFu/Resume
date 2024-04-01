@@ -1,0 +1,23 @@
+/* Contact */
+.contacts {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 25px;
+}
+
+.contact-item {
+  font-size: 14px;
+  text-align: left;
+  align-items: center;
+}
+
+.contact-item img {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+
+.contact-text {
+  vertical-align: bottom;
+}

@@ -1,14 +1,23 @@
-/* Left Container */
+/* Experience */
 
-.left-container h1 {
-  font-size: 30px;
+.experience {
+  width: 100%;
+}
+.experience h1 {
+  margin-bottom: -11px;
 }
 
-.left-container ul {
+h2 {
+  font-size: 21px;
+  margin-top: 14px;
+  margin-bottom: 5px;
+}
+
+.experience ul {
   margin-left: 22px;
 }
 
-.left-container li {
+.experience li {
   font-size: 15px;
   margin-top: 1px;
 }
@@ -18,7 +27,6 @@
 }
 
 .job-description {
-  /*font-size: 15px;*/
   color: #303030;
 }
 

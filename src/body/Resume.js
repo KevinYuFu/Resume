@@ -1,9 +1,9 @@
 import '../css/page.css';
 import '../css/style.css';
-import '../css/split.css';
 import Header from './Header';
-import ExperienceBody from './ExperienceBody';
-import SkillBody from './SkillBody';
+import Skills from './Skills';
+import Experience from './Experience';
+import Education from './Education';
 import PDFButton from '../pdf/pdfButton';
 
 function Resume() {
@@ -16,9 +16,12 @@ function Resume() {
           <div id="pdfSource" class="page-content-container">
             <div class="page-padding">
               <div>
-                <Header />
-                <ExperienceBody />
-                <SkillBody />
+                <div className="header-container">
+                  <Header />
+                </div>
+                <Skills />
+                <Experience />
+                <Education />
               </div>
             </div>
           </div>
