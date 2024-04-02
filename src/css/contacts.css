@@ -21,3 +21,9 @@
 .contact-text {
   vertical-align: bottom;
 }
+
+.linkedin{
+  width: 15px !important;
+  height: 15px !important;
+  padding-bottom: 1px;
+}

@@ -2,8 +2,8 @@ import '../css/skills.css';
 
 function Skills() {
 
-  const languages = [ 'Python', 'PHP', 'Java', 'c++', 'c#', 'JavaScript', 'react', 'SQL', 'Bash' ]
-  const tools = [ 'Git', 'docker', 'AWS', 'Unity' ]
+  const languages = [ 'Python', 'PHP', 'Java', 'c++', 'c#', 'JavaScript', 'React', 'SQL', 'Bash' ]
+  const tools = [ 'Git', 'AWS', 'Unity' ]
 
   return (
     <div class="skills">
