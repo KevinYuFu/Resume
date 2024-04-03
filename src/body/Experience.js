@@ -9,7 +9,7 @@ function Experience() {
     },
     { company: 'Electronic Arts', position: 'Full Stack Engineer', time: 'Feb 2020 – Aug 2022', points:
       [
-        'Server Engineer for mobile game prototyping team, building a microservice from ground up. (PHP, Laravel, AWS: DynamoDB, ECS, Lambda)',
+        'Server Engineer for mobile game prototyping team, building a microservice from ground up.   (PHP, Laravel, AWS: DynamoDB, ECS, Lambda)',
         'Led a rapid prototyping initiative developing 4 games in 4 weeks. Authored game design docs, strategized daily targets, delegated tasks to artists and coordinated with engineers through UML diagrams.',
       ]
     },
@@ -26,7 +26,7 @@ function Experience() {
     },
     { company: 'eSolutions Group', position: 'Frontend & DevOps Engineer', time: 'Sep 2016 – Dec 2016', points:
       [
-        'Developer on client solutions team, completing websites for corporations and municipalities. (C#, .Net, SQL)',
+        'Developer on client solutions team, completing websites for corporations and municipalities.     (C#, .Net, SQL)',
         'Investigated and implemented automated processes to streamline website creation, reducing creation time from 2 weeks to 2 days. (PowerShell, SQL)'
       ]
     },

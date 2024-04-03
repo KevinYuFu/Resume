@@ -1,8 +1,5 @@
 /* Experience */
 
-.experience {
-  width: 100%;
-}
 .experience h1 {
   margin-bottom: -11px;
 }
@@ -20,10 +17,7 @@ h2 {
 .experience li {
   font-size: 15px;
   margin-top: 1px;
-}
-
-.personal-projects {
-  margin-top: 20px;
+  white-space: pre-wrap;
 }
 
 .job-description {
@@ -32,5 +26,9 @@ h2 {
 
 .time-span {
   font-size: 13px;
-  color: #505050;
+  color: #406060;
+}
+
+h1{
+  color: #305050;
 }

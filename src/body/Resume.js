@@ -13,15 +13,17 @@ function Resume() {
       <div class="page">
         <div class="page-width-controller">
           <div class="page-ratio"></div>
-          <div id="pdfSource" class="page-content-container">
-            <div class="page-padding">
-              <div>
-                <div className="header-container">
-                  <Header />
+          <div class="page-content-container">
+            <div id="pdfSource">
+              <div class="page-padding">
+                <div>
+                  <div className="header-container">
+                    <Header />
+                  </div>
+                  <Skills />
+                  <Experience />
+                  <Education />
                 </div>
-                <Skills />
-                <Experience />
-                <Education />
               </div>
             </div>
           </div>
