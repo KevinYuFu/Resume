@@ -2,7 +2,13 @@ import '../css/experience.css';
 
 function Experience() {
   const exp = [
-    { company: 'Amazon', position: 'Backend Engineer', time: 'Sept 2022 – Present', points:
+    { company: 'Parallel Studios', position: 'Engineer', time: 'April 2024 – April 2025', points:
+      [
+        'Software Engineer for an AI driven simulation game. (Typescript, postgresql, HTMX, Tailwind)',
+        'Increased control and reliability of character behavior by separating AI engines to handle dedicated tasks.',
+      ]
+    },
+    { company: 'Amazon', position: 'Backend Engineer', time: 'Sept 2022 – March 2024', points:
       [
         'Software Engineer on advertising web service team with focus on migrating the web service architecture to AWS. (Java, Typescript, AWS)',
       ]
@@ -22,12 +28,6 @@ function Experience() {
     { company: 'Uber Maps', position: 'Backend Engineer', time: 'Jan 2018 – April 2018', points:
       [
         'Software Engineer on maps team, investigating graph partitioning algorithms, optimizing query speed by 18% and reducing storage by 10%. (Java, Python)'
-      ]
-    },
-    { company: 'eSolutions Group', position: 'Frontend & DevOps Engineer', time: 'Sep 2016 – Dec 2016', points:
-      [
-        'Developer on client solutions team, completing websites for corporations and municipalities.     (C#, .Net, SQL)',
-        'Investigated and implemented automated processes to streamline website creation, reducing creation time from 2 weeks to 2 days. (PowerShell, SQL)'
       ]
     },
     { company: 'UWACC', position: 'Musical Director', time: 'Jan 2017 - April 2019', points:
