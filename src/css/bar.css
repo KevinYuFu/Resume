@@ -1,0 +1,47 @@
+/* Accent Bar */
+
+.accent-bar {
+  --bar-color: #407070;
+  --bar-thickness: 2px;
+  --bar-width: 100%;
+  --bar-space-above: 26px;   /* whitespace before the line */
+  --bar-space-below: 10px;   /* whitespace after the line  */
+
+  display: block;
+  box-sizing: content-box;
+
+  width: var(--bar-width);
+  height: var(--bar-thickness);
+  padding-top: var(--bar-space-above);
+  padding-bottom: var(--bar-space-below);
+
+  background-color: var(--bar-color);
+  background-clip: content-box;
+}
+
+/*
+.accent-bar.tight {
+  --bar-space-above: 12px;
+  --bar-space-below: 6px;
+}
+
+.accent-bar.loose {
+  --bar-space-above: 44px;
+  --bar-space-below: 20px;
+}
+
+.accent-bar.hairline {
+  --bar-thickness: 1px;
+  --bar-color: #b0c4c4;
+}
+
+.accent-bar.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accent-bar.spacer {
+  --bar-thickness: 0px;
+  --bar-space-below: 0px;
+}
+*/

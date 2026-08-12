@@ -27,21 +27,6 @@ function Experience() {
       ]
     },
     */
-    { company: 'Rivals', position: 'CEO', time: 'Dec 2025 - Present', points:
-      [
-        //"Founded and launched an event company, successfully producing and executing its first large-scale event.",
-        "Founder of Rivals, a gaming rave which combining esports competitions with high energy music to build a new party experience for gamers.",
-        "Managed a team of 26, coordinating event planners, graphics designers, volunteers, and a media team.",
-        "Attended by 230+ guests, receiving overwhelmingly positive feedback and strong demand for future events.",
-      ]
-    },
-    { company: 'JSTDRMN', position: 'Academy Lead', time: 'Oct 2025 - Present', points:
-      [
-        "Lead the academy division of an artist incubator, designing and delivering result driven music production courses that help students build release ready tracks and performance skills."
-        //"The Academy Lead at an Artist Incubator Company.",
-        //"Designed and taught impactful and highly interactive courses, resulting in students playing at shows or releasing a track.",
-      ]
-    },
     /*
     { company: 'Uber Maps', position: 'Backend Engineer', time: 'Jan 2018 – April 2018', points:
       [

@@ -1,8 +1,10 @@
 import '../css/page.css';
 import '../css/style.css';
+import '../css/bar.css';
 import Header from './Header';
 import Skills from './Skills';
 import Experience from './Experience';
+import Projects from './Projects';
 import Education from './Education';
 import PDFButton from '../pdf/pdfButton';
 
@@ -22,6 +24,8 @@ function Resume() {
                   </div>
                   <Skills />
                   <Experience />
+                  <Projects />
+                  <div class="accent-bar"></div>
                   <Education />
                 </div>
               </div>

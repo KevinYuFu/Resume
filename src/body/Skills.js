@@ -3,7 +3,7 @@ import '../css/skills.css';
 function Skills() {
 
   const languages = [ 'Python', 'PHP', 'Java', 'c++', 'c#', 'TypeScript', 'JavaScript', 'React', 'SQL', 'PostgreSQL', 'Laravel', 'Bash' ]
-  const tools = [ 'Git', 'AWS', 'Unity' ]
+  const tools = [ 'Git', 'AWS', /*'Unity',*/ 'Claude Code' ]
 
   return (
     <div class="skills">
