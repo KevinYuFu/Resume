@@ -1,5 +1,47 @@
 /* Page */
 
+/* Vertical rhythm
+   ------------------------------------------------------------------
+   Every piece of vertical whitespace in the resume is derived from
+   these knobs. Type sizes are deliberately NOT scaled — shrinking
+   air is free, shrinking text is not.
+
+   --density         master; moves everything at once
+   --density-header  the title zone: page top margin, name, contacts
+   --density-body    everything below it: sections, jobs, bullets
+
+   Both zones follow the master until you give them their own value.
+   To open up the top while squeezing the content:
+
+       --density-header: 1.3;
+       --density-body:   0.8;
+
+   Horizontal spacing and the page geometry (21cm width, the 141%
+   A4 aspect lock) are fixed and stay out of this. */
+
+:root {
+  --density-header: 0.95;
+  --density-body:   0.85;
+
+  /* Title zone */
+  --space-page-top:    calc(1.5cm * var(--density-header, 1)); /* above the name       */
+  --space-contact-row: calc(25px  * var(--density-header, 1)); /* contact line height  */
+  /* Floored at 52px — the line box of the 45px name. Below that the
+     name overflows its container and collides with the Skills heading. */
+  --space-header:      max(52px, calc(65px * var(--density-header, 1)));
+
+  /* Body zone */
+  --space-page-bottom: calc(1.5cm * var(--density-body, 1));   /* below Education      */
+  --space-section:     calc(15px  * var(--density-body, 1));   /* above each section h1   */
+  --space-job:         calc(28px  * var(--density-body, 1));   /* between jobs            */
+  --space-job-pull:    calc(-11px * var(--density-body, 1));   /* h1 -> first job pull-up */
+  --space-job-sub:     calc(5px   * var(--density-body, 1));   /* job title -> bullets    */
+  --space-bullet:      calc(1px   * var(--density-body, 1));   /* between bullets         */
+}
+
+/* Want the PDF tighter than the screen? Override just for the export:
+   #pdfSource { --density: 0.9; } */
+
 *{
   margin: 0;
   padding: 0;
@@ -42,6 +84,6 @@
 }
 
 .page-padding {
-  margin: 1.5cm;
+  margin: var(--space-page-top) 1.5cm var(--space-page-bottom);
 }
 

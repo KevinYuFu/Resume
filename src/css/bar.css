@@ -4,8 +4,8 @@
   --bar-color: #407070;
   --bar-thickness: 2px;
   --bar-width: 100%;
-  --bar-space-above: 26px;   /* whitespace before the line */
-  --bar-space-below: 10px;   /* whitespace after the line  */
+  --bar-space-above: calc(26px * var(--density-body, 1));   /* whitespace before the line */
+  --bar-space-below: calc(10px * var(--density-body, 1));   /* whitespace after the line  */
 
   display: block;
   box-sizing: content-box;

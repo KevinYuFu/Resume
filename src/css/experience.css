@@ -1,13 +1,13 @@
 /* Experience */
 
 .experience h1 {
-  margin-bottom: -11px;
+  margin-bottom: var(--space-job-pull);
 }
 
 h2 {
   font-size: 21px;
-  margin-top: 28px;
-  margin-bottom: 5px;
+  margin-top: var(--space-job);
+  margin-bottom: var(--space-job-sub);
 }
 
 .experience ul {
@@ -16,7 +16,7 @@ h2 {
 
 .experience li {
   font-size: 15px;
-  margin-top: 1px;
+  margin-top: var(--space-bullet);
   white-space: pre-wrap;
 }
 
