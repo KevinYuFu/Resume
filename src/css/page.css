@@ -20,8 +20,8 @@
    A4 aspect lock) are fixed and stay out of this. */
 
 :root {
-  --density-header: 0.95;
-  --density-body:   0.85;
+  --density-header: 0.85;
+  --density-body:   0.80;
 
   /* Title zone */
   --space-page-top:    calc(1.5cm * var(--density-header, 1)); /* above the name       */

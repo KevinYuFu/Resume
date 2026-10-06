@@ -2,15 +2,15 @@ import '../css/experience.css';
 
 function Experience() {
   const exp = [
-    { company: 'Parallel Studios', position: 'Engineer', time: 'April 2024 – June 2025', points:
+    { company: 'Parallel Studios', position: 'Software Engineer', time: 'April 2024 – June 2025', points:
       [
-        'Software Engineer for an AI driven simulation game. (Typescript, postgresql, HTMX, Tailwind)',
+        'Software Engineer for an AI driven simulation game. (TypeScript, PostgreSQL, HTMX, Tailwind)',
         'Increased control and reliability of character behavior by separating AI engines to handle dedicated tasks.',
       ]
     },
     { company: 'Amazon', position: 'Backend Engineer', time: 'Sept 2022 – March 2024', points:
       [
-        'Software Engineer on advertising web service team with focus on migrating the web service architecture to AWS. (Java, Typescript, AWS)',
+        'Software Engineer on advertising web service team with focus on migrating the web service architecture to AWS. (Java, TypeScript, AWS)',
       ]
     },
     { company: 'Electronic Arts', position: 'Full Stack Engineer', time: 'Feb 2020 – Aug 2022', points:

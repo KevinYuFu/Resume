@@ -24,6 +24,7 @@ function Resume() {
                   </div>
                   <Skills />
                   <Experience />
+                  <div class="accent-bar"></div>
                   <Projects />
                   <div class="accent-bar"></div>
                   <Education />
