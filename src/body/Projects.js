@@ -12,8 +12,9 @@ function Projects() {
     { name: 'JSTDRMN Academy Manager', time: 'Oct 2025 - Present', points:
       [
         "Lead the academy division of an artist incubator, designing and delivering result driven music production courses that help students build release ready tracks and performance skills.",
-        "Handle marketing and social media.",
-        "Manage staff, interns, and project logistics from planning through completion.",
+        //"Handle marketing and social media.",
+        "Own social media marketing for each bootcamp and workshop, creating reels and promotional content to drive enrollment for each cohort.",
+        //"Manage staff, interns, and project logistics from planning through completion.",
       ]
     },
     //{ name: 'Ultimate Tab Manager', time: 'April 2026 - Present', points:
