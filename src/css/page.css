@@ -87,3 +87,9 @@
   margin: var(--space-page-top) 1.5cm var(--space-page-bottom);
 }
 
+
+/* Stop the page-padding margin from collapsing out of #pdfSource, so the
+   element's box (used for PDF scaling and link placement) is the full page. */
+#pdfSource {
+  display: flow-root;
+}

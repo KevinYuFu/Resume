@@ -1,6 +1,23 @@
 /* Skills */
 
-.skills li{
-  display: inline-block;
-  margin-right: 10px;
+.skill-rows {
+  margin-top: calc(4px * var(--density-body, 1));
+}
+
+/* Label column sized to the longest label so the item lists line up. */
+.skill-row {
+  display: grid;
+  grid-template-columns: 7.2em 1fr;
+  column-gap: 8px;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.skill-label {
+  font-weight: bold;
+  color: #305050;
+}
+
+.skill-items {
+  color: #303030;
 }
