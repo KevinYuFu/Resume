@@ -1,7 +1,7 @@
 import '../css/education.css';
 
 function Education() {
-  const skillList = [ 'University of Waterloo', 'B.S. Computer Science', 'Music Minor', 'Graduated April 2019' ]
+  const skillList = [ 'University of Waterloo', 'B.S. Computer Science', 'Music Minor', 'Graduated Apr 2019' ]
 
   return (
     <div class="education">
